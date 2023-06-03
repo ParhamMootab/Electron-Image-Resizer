@@ -1,0 +1,35 @@
+{
+  "name": "image_resizer",
+  "productName": "Image Resizer",
+  "version": "1.0.0",
+  "description": "App to resize image dimensions",
+  "main": "./dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "electron-forge start",
+    "start-forge": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": "Parham Mootab",
+  "license": "ISC",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0",
+    "typescript": "^5.1.3"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.1.1",
+    "@electron-forge/maker-deb": "^6.1.1",
+    "@electron-forge/maker-rpm": "^6.1.1",
+    "@electron-forge/maker-squirrel": "^6.1.1",
+    "@electron-forge/maker-zip": "^6.1.1",
+    "@types/electron": "^1.6.10",
+    "@types/resize-img": "^2.0.1",
+    "@types/toastify-js": "^1.11.1",
+    "electron": "^25.0.1",
+    "electron-installer-windows": "^3.0.0",
+    "electron-packager": "^17.1.1"
+  }
+}
